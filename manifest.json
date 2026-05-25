@@ -1,15 +1,24 @@
 {
-  "name": "PJSA - Pankaj Jyoti Sports Academy",
+  "name": "Pankaj Jyoti Sports Academy",
   "short_name": "PJSA",
+  "description": "Official App of Pankaj Jyoti Sports Academy",
   "start_url": "/PJSA/",
   "display": "standalone",
   "background_color": "#1e3c72",
   "theme_color": "#1e3c72",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "https://i.imgur.com/8QZ1Y0y.png",
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
