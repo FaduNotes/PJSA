@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Team - PJSA</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* HEADER */
+header{
+    background:#143d8f;
+    color:white;
+    padding:18px;
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* NAVBAR */
+nav{
+    background:#1f4ca5;
+    padding:12px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:8px;
+    transition:0.3s;
+    font-size:16px;
+}
+
+nav a:hover{
+    background:white;
+    color:#143d8f;
+}
+
+/* SECTION */
+.team-section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.team-section h1{
+    color:#143d8f;
+    margin-bottom:10px;
+    font-size:35px;
+}
+
+.team-section p{
+    color:#666;
+    margin-bottom:35px;
+}
+
+/* TEAM GRID */
+.team-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+/* CARD */
+.team-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-8px);
+}
+
+.team-card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid #143d8f;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.team-card h2{
+    color:#143d8f;
+    margin-bottom:5px;
+}
+
+.team-card h4{
+    color:#1f4ca5;
+    margin-bottom:12px;
+}
+
+.team-card p{
+    color:#555;
+    font-size:14px;
+    line-height:1.6;
+}
+
+/* FOOTER */
+footer{
+    background:#143d8f;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>PJSA Academy</header>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="sports.html">Sports</a>
+<a href="team.html">Our Team</a>
+<a href="admission.html">Admission</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="team-section">
+
+<h1>Our Team</h1>
+<p>Meet Our Professional Coaches & Management Team</p>
+
+<div class="team-container">
+
+    <!-- TEAM MEMBER 1 -->
+    <div class="team-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+        <h2>Pankaj Sir</h2>
+
+        <h4>Head Coach</h4>
+
+        <p>
+            Professional Pencak Silat Coach with experience
+            in national and international tournaments.
+        </p>
+    </div>
+
+    <!-- TEAM MEMBER 2 -->
+    <div class="team-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png">
+
+        <h2>Rahul Kumar</h2>
+
+        <h4>Fitness Trainer</h4>
+
+        <p>
+            Strength & conditioning expert helping athletes
+            improve stamina and performance.
+        </p>
+    </div>
+
+    <!-- TEAM MEMBER 3 -->
+    <div class="team-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png">
+
+        <h2>Neha Madam</h2>
+
+        <h4>Assistant Coach</h4>
+
+        <p>
+            Specialized in self defense and junior athlete
+            training programs.
+        </p>
+    </div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 PJSA Academy | All Rights Reserved
+</footer>
+
+</body>
+</html>
