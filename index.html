@@ -115,11 +115,11 @@ body{background:#f0f4f8;overflow-x:hidden;}
   </div>
   
   <div id="mySidebar" class="sidebar">
-    <a href="#home" onclick="closeMenu()">🏠 Home</a>
+    <a href="home.html" onclick="closeMenu()">🏠 Home</a>
     <a href="about.html" onclick="closeMenu()">ℹ️ About PJSA</a>
-    <a href="#team" onclick="closeMenu()">👥 Our Team</a>
-    <a href="#sports" onclick="closeMenu()">🥋 Sports</a>
-    <a href="#contact" onclick="closeMenu()">📞 Contact</a>
+    <a href="team.html" onclick="closeMenu()">👥 Our Team</a>
+    <a href="sports.html" onclick="closeMenu()">🥋 Sports</a>
+    <a href="contact.html" onclick="closeMenu()">📞 Contact</a>
     <a href="#" class="logout-btn" onclick="logout()">🚪 Logout</a>
   </div>
   
@@ -290,7 +290,7 @@ function logout(){
 }
 
 /* ADMIN SYSTEM */
-const ADMIN_PASS = "pjsa@2026";
+const ADMIN_PASS = "Admin@123";
 
 function adminLogin(){
   const pass = document.getElementById("adminPassword").value;
